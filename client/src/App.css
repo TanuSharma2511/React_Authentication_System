@@ -1,0 +1,112 @@
+/* screen divided into left half and right halves */
+
+#leftHalf {
+  background: url("./images/green.jpg");
+  width: 50%;
+  position: absolute;
+  left: 0px;
+  height: 100%;
+}
+#rightHalf {
+  background: url("./images/leaves.jpg");
+  width: 50%;
+  position: absolute;
+  right: 0px;
+  height: 100%;
+}
+
+/* screen divided into top and bottom halves */
+
+#topHalf {
+  background: url("./images/leaves.jpg");
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  height: 50%;
+}
+#bottomHalf {
+  background: url("./images/purple.jpg");
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  height: 50%;
+}
+
+/* Full Image is displayed */
+
+#fullArea {
+  background: url("./images/green.jpg");
+  width: 100%;
+  position: absolute;
+  top:0px;
+  height: 100%;
+}
+
+/* Type heading */
+
+.heading1 h1{
+
+  text-align: center;
+  margin-top:200px;
+  font-weight:600;
+  color:#fff;
+ font-size: x-large;
+ }
+ 
+ .heading3 h1{
+   position: absolute;
+   top:40%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   font-weight:600;
+ }
+
+ .heading2 h1{
+  position: absolute;
+  top:40%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-weight:600;
+}
+
+  /* loginId heading */
+
+ .heading3 .loginid{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-weight:600;
+}
+
+/* logout button */
+
+.heading1 button{
+  position: absolute;
+  top:35%;
+  left:50%;
+  transform: translate(-50%,-50%);
+   height:50px;
+   width:150px;
+   border-radius: 20px;
+   align-items: center;
+ }
+ .heading3 button{
+  position: absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%,-50%);
+   height:50px;
+   width:150px;
+   border-radius: 20px;
+ }
+ .heading2 button{
+  position: absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%,-50%);
+   height:50px;
+   width:150px;
+   margin-top:20px;
+   border-radius: 20px;
+ }
